@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "hl7.fhir.uv.xver",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver",
+  "version" : "0.1.1",
+  "name" : "Hl7_fhir_uv_xver",
+  "title" : "Base package and common definitions for FHIR Cross-Version Packages",
+  "status" : "active",
+  "date" : "2026-07-08T12:00:00.2230772+00:00",
+  "publisher" : "HL7 International / FHIR Infrastructure",
+  "contact" : [{
+    "name" : "HL7 International / FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "Rules and core definitions for FHIR Cross-Version Packages. This is a base package that is used by all other cross-version packages.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "packageId" : "hl7.fhir.uv.xver",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["5.0.0", "4.3.0", "4.0.1"],
+
+  "definition" : {
+    "page" : 
+    { "nameUrl" : "index.html", "title" : "Home", "generation" : "markdown" , "page" : [ 
+      { "nameUrl" : "faqs.html", "title" : "FAQs", "generation" : "markdown" },
+      { "nameUrl" : "downloads.html", "title" : "Downloads", "generation" : "markdown" },
+      { "nameUrl" : "changelog.html", "title" : "Change Log", "generation" : "markdown" }
+      ]
+    },
+  "parameter" : [
+    { "code" : "apply-contact", "value" : "false" },
+    { "code" : "apply-context", "value" : "false" },
+    { "code" : "apply-copyright", "value" : "true" },
+    { "code" : "apply-jurisdiction", "value" : "false" },
+    { "code" : "apply-publisher", "value" : "false" },
+    { "code" : "apply-version", "value" : "false" },
+    { "code" : "apply-wg", "value" : "false" },
+    { "code" : "copyrightyear", "value" : "2025+" },
+    { "code" : "default-contact", "value" : "true" },
+    { "code" : "default-context", "value" : "false" },
+    { "code" : "default-jurisdiction", "value" : "true" },
+    { "code" : "default-publisher", "value" : "false" },
+    { "code" : "default-version", "value" : "true" },
+    { "code" : "default-wg", "value" : "true" },
+    { "code" : "excludemap", "value" : "true" },
+    { "code" : "no-check-usage", "value" : "true" },
+    { "code" : "no-expansions-files", "value" : "true" },
+    { "code" : "no-ig-database", "value" : "true" },
+    { "code" : "pin-canonicals", "value" : "pin-all" },
+    { "code" : "releaselabel", "value" : "STU" },
+    { "code" : "show-inherited-invariants", "value" : "false" },
+    { "code" : "shownav", "value" : "true" },
+    { "code" : "special-url-base", "value" : "http://terminology.hl7.org" },
+    { "code" : "suppress-mappings", "value" : "true" },
+    { "code" : "usage-stats-opt-out", "value" : "true" },
+    { "code" : "version-comparison", "value" : "n/a" },
+    { "code" : "auto-oid-root", "value" : "2.16.840.1.113883.4.642.40.76" }
+    ]
+  }
+}

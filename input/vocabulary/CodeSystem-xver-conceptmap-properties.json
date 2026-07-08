@@ -1,0 +1,47 @@
+{
+    "resourceType" : "CodeSystem",
+    "id" : "xver-conceptmap-properties",
+    "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "trial-use"
+    },
+    {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+        "valueCode" : "fhir"
+    },
+    {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 0
+    }],
+    "url" : "http://hl7.org/fhir/uv/xver/CodeSystem/xver-conceptmap-properties",
+    "version" : "5.0.0",
+    "name" : "XverConceptMapProperties",
+    "title" : "FHIR Cross-Version ConceptMap Properties CodeSystem",
+    "status" : "active",
+    "experimental" : false,
+    "date" : "2026-07-08T12:00:00.2230772+00:00",
+    "publisher" : "HL7 International / FHIR Infrastructure",
+    "contact" : [{
+        "name" : "HL7 International / FHIR Infrastructure",
+        "telecom" : [{
+            "system" : "url",
+            "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }]
+    }],
+    "description" : "Properties for FHIR Cross-Version ConceptMaps. These properties are used to include additional details about the relationship between source and target elements in a ConceptMap that maps between different versions of FHIR.",
+    "caseSensitive" : true,
+    "content" : "complete",
+    "valueSet" : "http://hl7.org/fhir/uv/xver/ValueSet/xver-conceptmap-properties",
+    "concept" : [
+        {
+            "code" : "cardinality-collapses",
+            "display" : "Cardinality Collapses",
+            "definition" : "Indicates whether the cardinality of the source element collapses when mapped to the target element. E.g., 0..* string values can be concatenated into a single string value."
+        },
+        {
+            "code" : "mapping-guidance",
+            "display" : "Mapping Guidance",
+            "definition" : "Guidance or notes about how the mapping should be interpreted or applied."
+        }
+    ]   
+}
