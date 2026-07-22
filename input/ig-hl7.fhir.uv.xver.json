@@ -37,7 +37,7 @@
   }],
   "packageId" : "hl7.fhir.uv.xver",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["5.0.0", "4.3.0", "4.0.1"],
+  "fhirVersion" : ["5.0.0"],
 
   "definition" : {
     "page" : 
@@ -48,6 +48,9 @@
       ]
     },
   "parameter" : [
+    { "code" : "generate-version", "value" : "r5" },
+    { "code" : "generate-version", "value" : "r4b" },
+    { "code" : "generate-version", "value" : "r4" },
     { "code" : "apply-contact", "value" : "false" },
     { "code" : "apply-context", "value" : "false" },
     { "code" : "apply-copyright", "value" : "true" },

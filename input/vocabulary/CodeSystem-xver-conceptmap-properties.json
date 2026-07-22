@@ -34,14 +34,19 @@
     "valueSet" : "http://hl7.org/fhir/uv/xver/ValueSet/xver-conceptmap-properties",
     "concept" : [
         {
+            "code" : "extracted-contents",
+            "display" : "Extracted Contents",
+            "definition" : "Boolean value that indicates whether the mapping target is an extracted or derived value from the source element, rather than a direct mapping. This property is used to indicate that the target element is not a direct representation of the source element, but rather a value that has been extracted or derived from it."
+        },
+        {
             "code" : "cardinality-collapses",
             "display" : "Cardinality Collapses",
-            "definition" : "Indicates whether the cardinality of the source element collapses when mapped to the target element. E.g., 0..* string values can be concatenated into a single string value."
+            "definition" : "Boolean value that indicates whether the cardinality of the source element collapses when mapped to the target element. E.g., 0..* string values can be concatenated into a single string value."
         },
         {
             "code" : "mapping-guidance",
             "display" : "Mapping Guidance",
-            "definition" : "Guidance or notes about how the mapping should be interpreted or applied."
+            "definition" : "String value that provides guidance or notes about how the mapping should be interpreted or applied."
         }
     ]   
 }
