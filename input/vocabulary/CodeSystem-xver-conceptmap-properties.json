@@ -47,6 +47,16 @@
             "code" : "mapping-guidance",
             "display" : "Mapping Guidance",
             "definition" : "String value that provides guidance or notes about how the mapping should be interpreted or applied."
+        },
+        {
+            "code" : "requires-omitted-mandatory-code",
+            "display" : "Requires Omitted Mandatory Code",
+            "definition" : "Boolean value that indicates whether the represented element mapping cannot be safely reprented without omitting a mandatory code element."
+        },
+        {
+            "code" : "unsafe-concept-mapping",
+            "display" : "Unsafe Concept Mapping",
+            "definition" : "Boolean value that indicates whether the concept mapping is considered unsafe or potentially problematic."
         }
     ]   
 }
