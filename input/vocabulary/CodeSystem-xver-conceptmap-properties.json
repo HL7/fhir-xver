@@ -54,8 +54,8 @@
             "definition" : "Boolean value that indicates whether the represented element mapping cannot be safely reprented without omitting a mandatory code element."
         },
         {
-            "code" : "unsafe-concept-mapping",
-            "display" : "Unsafe Concept Mapping",
+            "code" : "potentially-unsafe-concept-mapping",
+            "display" : "Potentially Unsafe Concept Mapping",
             "definition" : "Boolean value that indicates whether the concept mapping is considered unsafe or potentially problematic."
         }
     ]   
